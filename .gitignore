@@ -1,0 +1,12 @@
+.vscode/
+.DS_Store
+build/
+dist/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.egg-info/
+__pycache__/
+para.ini
