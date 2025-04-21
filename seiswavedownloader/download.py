@@ -147,7 +147,7 @@ def _download_cont(nw, starttime, endtime, para, domain):
             station = para["Station Info"].get("station", "*"),
             channel_priorities = para["Station Info"].get("channelPriority", "*").split(","),
             reject_channels_with_gaps = False,
-            minimum_length = 1.0,
+            minimum_length = 0.01,
             minimum_interstation_distance_in_m = 100.0)
         
     else:
@@ -159,7 +159,7 @@ def _download_cont(nw, starttime, endtime, para, domain):
             station = para["Station Info"].get("station", "*"),
             channel_priorities = para["Station Info"].get("channelPriority", "*").split(","),
             reject_channels_with_gaps = False,
-            minimum_length = 1.0,
+            minimum_length = 0.01,
             minimum_interstation_distance_in_m = 100.0)
 
     mdl.download(
