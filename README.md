@@ -1,5 +1,5 @@
 # SeisWaveDownloader
-A lightweight tool to download seismic waveforms from IRIS parallel
+A lightweight tool to download seismic waveforms from IRIS parallelly
 
 ## Installation
 For Anaconda, simply create a new environment, install dependencies, and install.
